@@ -1,4 +1,4 @@
-
+Bot name {zaza bot} from 'victory 
 import { EventEmitter } from 'events'
 import { RequestInit } from 'node-fetch'
 import * as puppeteer from 'puppeteer'
