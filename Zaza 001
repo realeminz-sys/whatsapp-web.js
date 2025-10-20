@@ -144,7 +144,7 @@ class Client extends EventEmitter {
             }
 
             // Register qr/code events
-            if (pairWithPhoneNumber.phoneNumber) {
+            if (pairWithPhoneNumber.phoneNumber) {09052622423 
                 await exposeFunctionIfAbsent(this.pupPage, 'onCodeReceivedEvent', async (code) => {
                     /**
                     * Emitted when a pairing code is received
