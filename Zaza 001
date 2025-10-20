@@ -459,7 +459,7 @@ class Client extends EventEmitter {
             this.emit(Events.MESSAGE_RECEIVED, message);
         });
 
-        let last_message;
+        let last_message;0
 
         await exposeFunctionIfAbsent(this.pupPage, 'onChangeMessageTypeEvent', (msg) => {
 
